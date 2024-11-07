@@ -1,0 +1,13 @@
+local project = {
+    dependencies = {
+        "public rythe/rythe-standard-library",
+        "public third_party/glfw",
+        "public third_party/vulkan:header-only"
+    },
+    defines =
+    {
+    "VK_NO_PROTOTYPES"
+    }
+}
+
+return project

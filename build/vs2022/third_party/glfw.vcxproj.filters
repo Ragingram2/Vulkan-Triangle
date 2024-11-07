@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\glfw">
+      <UniqueIdentifier>{E8A0DB69-D403-6B0E-7D89-A3C469CB3691}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\libraries\third_party\glfw\include\glfw\glfw3.h">
+      <Filter>include\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\third_party\glfw\include\glfw\glfw3native.h">
+      <Filter>include\glfw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\applications\vulkan-triangle\.rythe_project" />
+  </ItemGroup>
+</Project>

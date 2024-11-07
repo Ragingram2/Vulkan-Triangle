@@ -1,0 +1,3 @@
+[submodule "libraries/rythe/Rythe-Standard-Library"]
+	path = libraries/rythe/Rythe-Standard-Library
+	url = https://github.com/Rythe-Interactive/Rythe-Standard-Library.git

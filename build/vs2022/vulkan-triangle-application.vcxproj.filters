@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vulkan">
+      <UniqueIdentifier>{F6FEA123-E2A0-CCF9-CB5B-E04DB79C534A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\applications\vulkan-triangle\src\vulkan-triangle\vulkan\list_of_vulkan_functions.inl">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\applications\vulkan-triangle\src\vulkan-triangle\vulkan\vulkan_functions.h">
+      <Filter>vulkan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\applications\vulkan-triangle\src\vulkan-triangle\main.cpp" />
+    <ClCompile Include="..\..\applications\vulkan-triangle\src\vulkan-triangle\vulkan\vulkan_functions.cpp">
+      <Filter>vulkan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\applications\vulkan-triangle\.rythe_project" />
+  </ItemGroup>
+</Project>
